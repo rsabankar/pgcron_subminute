@@ -1,4 +1,5 @@
-# pgcron_subminute
+# Migrate Oracle Sub-minute scheduler jobs to Amazon RDS for PostgreSQL or Amazon Aurora for PostgreSQL databases
+
 This post will be covering the use cases of migrating Oracle database jobs that run at sub-minute intervals to Amazon RDS for PostgreSQL or Amazon Aurora PostgreSQL-Compatible Edition. We will demonstrate a step-by-step solution to setup the job scheduling capabilities in Amazon RDS/Aurora PostgreSQL, mirroring the capabilities of Oracle scheduler jobs, that will address the below three patterns 
 1. cron like schedule 
 2. sub-minute job with an interval of [0-59] seconds and 
