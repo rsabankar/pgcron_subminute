@@ -1,4 +1,3 @@
-CREATE EXTENSION pg_cron;
 
 create schema dbms_job;
 create user dbms_job with password 'dbms_job';
